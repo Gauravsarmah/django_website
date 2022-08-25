@@ -1,1 +1,1 @@
-web: gunicorn gaurav.wsgi
+web: waitress-serve --port=8000 gaurav.wsgi:application
