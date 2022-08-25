@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 gaurav.wsgi:application
+web: waitres-serve --port=$PORT gaurav.wsgi:application
